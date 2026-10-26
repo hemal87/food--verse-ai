@@ -146,8 +146,7 @@ with tabs[1]:
         with c1:
             st.info("Analyzing Surface Texture & Discoloration Index...")
             st.markdown("**Freshness Classification:** <span class='moderate-badge'>Moderately Fresh</span>", unsafe_allow_html=True)
-            st.write("
-")
+            st.write("")
             st.write("**Diagnostic Summary:** Slight oxidation detected around skin edges. No active fungal or mold spores identified.")
             
         with c2:
@@ -212,9 +211,9 @@ with tabs[3]:
             """)
         with col2:
             st.write("**Ingredient Substitutions & Zero-Waste Tips:**")
-            st.info("💡 **Substitutions:** Use Feta instead of Parmesan, or Kale instead of Spinach.
+            st.info("💡 **Substitutions:** Use Feta instead of Parmesan, or Kale instead of Spinach.")
+            st.write("♻️ **Zero-Waste:** Save tomato tops and garlic skins for vegetable broth.")
 
-♻️ **Zero-Waste:** Save tomato tops and garlic skins for vegetable broth!")
 
 # -----------------------------------------------------------------------------
 # TAB 5: PERSONALIZED MEAL PLANNER (EPIC 5)
